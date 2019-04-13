@@ -2,7 +2,7 @@
 
 **This sensor reports CO2 levels, temperature, humidity, and current location to an MQTT broker.**
 
-![sensor](https://github.com/Evanfeenstra/pollution-sensor/blob/master/sensor.png)
+![sensor](https://github.com/Evanfeenstra/air-sensor/blob/master/sensor.png)
 
 **To build it, you will need:**
 
@@ -15,4 +15,4 @@
 - wire and wirestrippers
 - soldering iron (or buy the components with headers already attached)
 
-![pollutionsensor](https://github.com/Evanfeenstra/pollution-sensor/blob/master/pollution-sensor.png)
+![pollutionsensor](https://github.com/Evanfeenstra/air-sensor/blob/master/pollution-sensor.png)
