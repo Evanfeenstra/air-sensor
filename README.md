@@ -16,3 +16,21 @@
 - soldering iron (or buy the components with headers already attached)
 
 ![pollutionsensor](https://github.com/Evanfeenstra/air-sensor/blob/master/pollution-sensor.png)
+
+### configuring 
+
+You can configure the connectivity settings at the top of the main.cpp file. Here are the values that you need to change:
+```
+#define WIFI_SSID "***"
+#define WIFI_PASS "***"
+#define MQTT_SERVER "***"
+#define MQTT_USER "***"
+#define MQTT_PASSWORD "***"
+#define MQTT_TOPIC "messages"
+#define MQTT_ACK_TOPIC "streams" // subscribe to an acknowledgement topic
+#define IP_STACK_ACCESS_KEY "***"
+```
+
+Notes:
+- IP Stack allows you to get geolocation data from your public IP address. 
+- The sensor posts to the topic specified in the MQTT_TOPIC value, suffixed with the unique chip ID of the esp8266. (messages/009481B5)
