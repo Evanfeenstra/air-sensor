@@ -32,5 +32,5 @@ You can configure the connectivity settings at the top of the main.cpp file. Her
 ```
 
 Notes:
-- IP Stack allows you to get geolocation data from your public IP address. 
+- IP Stack allows you to get geolocation data from your public IP address. [Get an access key](https://ipstack.com)
 - The sensor posts to the topic specified in the MQTT_TOPIC value, suffixed with the unique chip ID of the esp8266. (messages/009481B5)
